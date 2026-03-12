@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gregory KANDU | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">GK<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content" data-aos="zoom-out">
+            <h1>Gregory <span>KANDU</span></h1>
+            <p id="typewriter"></p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">Mes Travaux</a>
+                <a href="#contact" class="btn secondary">Me contacter</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container about-wrapper">
+            <div class="about-left" data-aos="fade-right">
+                <div class="about-image-stack">
+                    <div class="photo-card card-1">
+                        <img src="ma-photo.jpg" alt="Gregory Kandu 1">
+                    </div>
+                    <div class="photo-card card-2">
+                        <img src="ma_photo.jpg" alt="Gregory Kandu 2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-right" data-aos="fade-left">
+                <h2 class="section-title-left">À propos de moi</h2>
+                <div class="about-content">
+                    <p>
+                        Passionné par l'ingénierie logicielle et les défis technologiques, je suis actuellement étudiant
+                        en <strong>deuxième année de Licence (BAC 2)</strong> au sein du département des Sciences
+                        Informatiques à l'<strong>Université Protestante de Lubumbashi (U.P.L)</strong>. Mon parcours
+                        est orienté vers le développement Full-Stack, avec une maîtrise particulière de l'écosystème
+                        Java (JavaFX) pour les solutions desktop et PHP/SQL pour les architectures web.
+                    </p>
+                    <p>
+                        Au-delà de la programmation, je cultive un intérêt marqué pour la
+                        <strong>cybersécurité</strong>, explorant les vulnérabilités réseaux et la stéganographie pour
+                        concevoir des systèmes plus sûrs. Créatif et rigoureux, j'ai déjà concrétisé plusieurs projets,
+                        notamment une application de gestion commerciale (AppBoutique) et une extension Chrome de
+                        détection de fake news.
+                    </p>
+                    <p>
+                        Mon esprit de compétition et mon sens du collectif, forgés sur les terrains de
+                        <strong>Basketball</strong>, sont des atouts que je transpose chaque jour dans la gestion de
+                        projets techniques et le travail en équipe.
+                    </p>
+
+                    <div class="personal-info">
+                        <p><i class="fas fa-university"></i> <strong>Université :</strong> Lubumbashi (U.P.L)</p>
+                        <p><i class="fas fa-envelope"></i> <strong>Email :</strong> kandugreg@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-alt">
+        <h2 class="section-title" data-aos="fade-up">Mes Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="flip-left"><i class="fab fa-java"></i>
+                <h3>Java</h3>
+                <p>JavaFX & Desktop</p>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="100"><i class="fab fa-php"></i>
+                <h3>Web</h3>
+                <p>PHP & SQL</p>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="200"><i class="fas fa-shield-alt"></i>
+                <h3>Sécurité</h3>
+                <p>Kali Linux</p>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="300"><i class="fas fa-project-diagram"></i>
+                <h3>Analyse</h3>
+                <p>Merise</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title" data-aos="fade-up">Projets réaliser</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>gestionnaire d'articles</h3>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Plate-forme de payement academique</h3>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>extension chrome de detection des fausse informations</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-alt">
+        <h2 class="section-title" data-aos="fade-up">Contact</h2>
+        <div class="contact-form-container" data-aos="zoom-in">
+            <form id="contact-form">
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <button type="submit" class="btn primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Gregory KANDU | U.P.L</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
